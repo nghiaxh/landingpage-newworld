@@ -16,13 +16,12 @@ body {
 
 .title {
   font: 1rem;
-  text-transform: capitalize;
   color: #ffffff;
   font-size: 6em;
   font-weight: 400;
   text-shadow: #505050 0 0 1rem;
-  padding: 8rem 0 0 0;
   pointer-events: none;
+  padding: 8rem 0 0 0;
 }
 
 p {
@@ -95,13 +94,16 @@ a:hover {
   transition: 0.5s ease-in-out;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 400px) {
   .title {
+    font-weight: 400;
+    text-shadow: #505050 0 0 1rem;
+    pointer-events: none;
     font-size: 4rem;
   }
-  p, p:hover {
+  p,
+  p:hover {
     font-size: 1rem;
-
   }
   .nav-bar ul {
     width: 100%;
