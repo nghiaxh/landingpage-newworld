@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Judson", Courier, monospace;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("assets/isaac-mitchell-jqAj1dnOpkw-unsplash.jpg");
+}
+
+.title {
+  font: 1rem;
+  text-transform: capitalize;
+  color: #ffffff;
+  font-size: 6em;
+  font-weight: 400;
+  text-shadow: #505050 0 0 1rem;
+  padding: 8rem 0 0 0;
+  pointer-events: none;
+}
+
+p {
+  color: #747474;
+  font-size: 1.5rem;
+  padding: 1rem;
+  font-weight: 400;
+  font-style: italic;
+  transition: 1s ease-in-out;
+  text-shadow: #575757 0 0 1rem;
+}
+
+p:hover {
+  color: #ffffff;
+  font-size: 1.5rem;
+  padding: 1rem;
+  font-weight: 400;
+  text-shadow: #565656 0 0 1rem;
+  cursor: pointer;
+  font-style: italic;
+  transition: 1s ease-in-out;
+}
+
+.title,
+p {
+  text-align: center;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-bar ul {
+  padding: 1rem 0;
+  list-style: none;
+  flex-direction: row;
+  justify-content: space-evenly;
+  display: flex;
+  align-items: center;
+}
+
+.nav-bar {
+  background-color: #6c6c6c1b;
+}
+
+li {
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #ffffff32;
+  border-radius: 1rem;
+  transition: 0.5s ease-in-out;
+}
+
+li:hover {
+  background-color: #00000048;
+  transition: 0.5s ease-in-out;
+}
+
+a {
+  color: #505050;
+  text-decoration: none;
+  transition: 0.5s ease-in-out;
+}
+
+a:hover {
+  color: #ffffff;
+  text-decoration: none;
+  transition: 0.5s ease-in-out;
+}
